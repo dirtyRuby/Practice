@@ -39,7 +39,7 @@ class MyOpenStruct
   end
 end
 
-a = OpenStruct.new
+a = MyOpenStruct.new
 a.name = :field1
 puts a.name
 
