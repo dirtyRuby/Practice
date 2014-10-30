@@ -55,7 +55,7 @@ describe Hash do
       hash.each{ |k,v|
         k.class.should == Symbol
         if v.class == Hash
-          deep_test_func(hash)
+          deep_test_func(v)
         end
       }
     end
