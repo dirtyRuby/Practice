@@ -1,0 +1,15 @@
+In this chapter we’ve looked at the process behind, and the tools Ruby supplies for, documen-
+tation, error handling, testing, benchmarking, and profiling.
+
+The quality of the documentation, error handling, and tests associated with a program or
+section of code demonstrates the professionalism of the developer and the program. Small,
+quickly developed scripts might not require any of these elements, but if you’re developing
+a system that’s designed to be used by other people or that’s mission-critical, it’s essential to
+understand the basics of error handling and testing to avoid the embarrassment of your code
+causing problems and behaving erroneously.
+
+Furthermore, it’s important to benchmark and profile your code so that your code has
+the ability to scale over time. You might expect your code to perform only a certain small set
+of functions—for example, processing small files—but in the future you might need to process
+significantly larger amounts of data with the same code and add extra, unanticipated features.
+The small amount of time taken to benchm.
