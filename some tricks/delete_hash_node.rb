@@ -4,9 +4,7 @@ class A
         if v.class == Hash
           manipulate(v)
         else
-          if  v%2 == 0
-            hash.delete(k)
-          end
+          hash.delete(k) if  v%2 == 0
         end
       }
   end
