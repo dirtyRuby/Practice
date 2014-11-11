@@ -1,7 +1,7 @@
 class Hash
  private
   def perform(hash)
-    raise ArgumentError, "Wring argument type. Hash expected when #{hash.class} given." if hash.class != Hash
+    raise ArgumentError, "Wrong argument type. Hash expected when #{hash.class} given." if hash.class != Hash
     new_hash = {}
     hash.each { |k,v|
         key = k.sub(" ","_")
